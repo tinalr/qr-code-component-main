@@ -1,0 +1,26 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
