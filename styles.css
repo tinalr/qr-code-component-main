@@ -6,10 +6,16 @@ img {}
 
 h1 {
   color: hsl(218, 44%, 22%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 p {
   color: hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .card {
@@ -19,6 +25,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  font-family: 'Outfit', sans-serif;
 }
 
 .attribution a {
