@@ -9,8 +9,9 @@ img {
 h1 {
   color: hsl(218, 44%, 22%);
   font-family: 'Outfit', sans-serif;
-  font-size: 15px;
+  font-size: 1.5em;
   font-weight: 700;
+  text-align: center;
 }
 
 p {
@@ -18,14 +19,18 @@ p {
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 25%;
-  min-width: 200px;
-  padding: 20px;
+  width: 316px;
+  padding: 10px;
+  margin: auto;
+}
 
+.text {
+  margin: 10px;
 }
 
 .attribution {
