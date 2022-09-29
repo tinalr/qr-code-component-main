@@ -2,7 +2,9 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-img {}
+img {
+  max-width: 100%;
+}
 
 h1 {
   color: hsl(218, 44%, 22%);
@@ -20,6 +22,10 @@ p {
 
 .card {
   background-color: hsl(0, 0%, 100%);
+  width: 25%;
+  min-width: 200px;
+  padding: 20px;
+
 }
 
 .attribution {
