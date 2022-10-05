@@ -1,5 +1,9 @@
 body {
   background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -24,12 +28,11 @@ p {
 }
 
 .card {
+  align-self: center;
   background-color: hsl(0, 0%, 100%);
   width: 300px;
   padding: 20px;
-  margin: auto;
   border-radius: 20px;
-  /*box-shadow: 5px 5px 50px 3px hsl(220, 15%, 55%);*/
 }
 
 .text {
@@ -37,6 +40,7 @@ p {
 }
 
 .attribution {
+  margin-top: 5%;
   font-size: 11px;
   text-align: center;
   font-family: 'Outfit', sans-serif;
