@@ -4,7 +4,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+  min-height: 100vh;
 }
 
 img {
@@ -36,11 +37,11 @@ p {
   width: 300px;
   padding: 20px;
   border-radius: 20px;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .attribution {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   font-size: 11px;
   text-align: center;
   font-family: 'Outfit', sans-serif;
